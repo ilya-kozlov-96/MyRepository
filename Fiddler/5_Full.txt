@@ -1,0 +1,13 @@
+GET http://192.168.0.100:999/chat?token=TN11EN HTTP/1.1
+User-Agent: Java/1.8.0_60
+Host: 192.168.0.100:999
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+
+
+HTTP/1.1 200 OK
+Date: Tu, 31 May 2016 04:55:31 GMT
+Access-control-allow-origin: *
+Content-length: 55
+
+{"messages":["Hi","How are you","Ok","Great"],"token":"TN35EN"}
